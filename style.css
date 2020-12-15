@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(59, 77, 69);
+    background: linear-gradient(90deg, rgb(55, 82, 75) 0%, rgb(154, 231, 199) 100%);
+  }
+  h1 {
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+    margin: 30px;
+    /* padding: 10px;
+    border: 3px solid rgb(48, 45, 40);
+    border-radius: 15px;
+    background-color: aqua; */
+  }
+  
+  h3 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 10px;
+      
+  }
+  
+  .number {
+    display: block;
+    height: 50px;
+    border: 2px solid #9dd4c4;
+    border-radius: 15px;
+    padding: 0 40px;
+    font-size: 20px;
+    background-color: #9dd4c4;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+  
+  #checkButton{
+      display: block;
+      height: 50px;
+      border-radius: 15px;
+      font-size: 25px;
+      background-color: #423f40;
+      width: 500px;
+      margin-bottom: 20px;
+      border: 2px solid #423f40;
+      color: white;
+  }
+  h3 { 
+      font-size: 20px;
+      text-align: center;
+      
+  }
